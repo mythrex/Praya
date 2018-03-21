@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :posts
   get 'users/show'
+  get 'reveal/show'
 
   devise_for :users
 

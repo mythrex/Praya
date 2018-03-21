@@ -10,7 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery2
+//= require jquery
 //= require rails-ujs
 //= require materialize/materialize.min.js
+//= require revealJs/reveal.js
+//= require revealJs/plugins/markdown/marked.js
+//= require revealJs/plugins/markdown/markdown.js
 //= require_tree .

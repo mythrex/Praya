@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_self
+ 
  */
 
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
@@ -21,6 +22,7 @@
 @import "reveal/reveal";
 @import "reveal/reveal-helpers";
 @import "reveal/themes/app-theme";
-@import '*';/*
+@import '*';
+/*
 *= require_tree .
 */

@@ -16,8 +16,10 @@
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 @import "materialize/materialize.min.css";
 @import "modules/palette";
+// reveal Js
 @import "modules/*";
 @import "reveal/reveal";
+@import "reveal/reveal-helpers";
 @import "reveal/themes/app-theme";
 @import '*';/*
 *= require_tree .

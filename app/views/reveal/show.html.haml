@@ -15,7 +15,7 @@
 		%section
 			.container-fluid
 				.row
-					.col.s6.editable{"data-no-turbolink":""}
+					.col.s6.editable
 						%h3 Hello World
 						%br/
 						%br/
@@ -26,16 +26,8 @@
 						%br/
 						%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aut odit quo, possimus ea ullam laudantium corporis molliti.
 
-%script
-	var all_medium_editors = null;
+.fixed-action-btn{style: "bottom: 100px;"}
+	%a#edit-slide{class: "btn-floating btn-large waves-effect waves-light red","data-state": "create"}
+		%i.material-icons create
 
-	$(document).on('turbolinks:before-render', function(){
-	if(all_medium_editors != null) {
-	all_medium_editors.destroy()
-	}
-	})
-
-	$(document).on('turbolinks:load', function(){
-	all_medium_editors = new MediumEditor('.editable');
-	})
 					
